@@ -1,0 +1,231 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 196, 15 );
+  }
+  nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  nav .mobile {
+    display: none;
+  }
+  
+  nav .logo { 
+    min-width: 250px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: rgb(241, 196, 15 );
+  }
+  
+  nav .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav .desktop .primary,
+  nav .desktop .secondary {
+    display: flex;
+  }
+  
+  nav .secondary.mini {
+    display: none;
+  }
+  
+  @media screen and (max-width: 894px) {
+    nav .logo {
+      min-width: 100px;
+    }
+  
+    nav .secondary.full {
+      display: none;
+    }
+  
+    nav .secondary.mini {
+      display: block;
+    }
+  
+    nav .secondary.mini .submenu {
+      position: absolute;
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 516px) {
+    nav .desktop {
+      display: none;
+    }
+  
+    nav .mobile {
+      display: block;
+    }
+  
+    nav .mobile .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    nav .mobile .header .logo {
+      flex: 1;
+      text-align: center;
+    }
+  
+    nav .mobile .header .more button {
+      padding: 20px;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 16px;
+    }
+    nav .mobile .header .more button:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+
+
+  /* Contenedores */
+
+
+  .container {
+    min-height: 79vh; 
+    max-width: 70%;
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    background-color: black;
+    gap: 4rem;
+    
+  }
+  
+
+  .profile_name{
+    margin:auto;
+  }
+  .profile_name_firstName{
+    color: rgb(203, 67, 53);
+    font-weight: 200;
+    font-size:  clamp(2.5rem, 12vw, 4rem);
+    text-decoration: uppercase;
+    display: block;
+    margin-bottom: -0,8rem;
+  }
+  .profile_name_lastName{
+    color:rgb(203, 67, 53);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 15vw, 7rem);
+    text-transform: uppercase;
+    display: block;
+  }
+
+.descripcion{
+  color: white;
+}
+
+h1{
+	color: rgb(203, 67, 53);
+  text-align: center;
+}
+
+p{
+	color: rgb(203, 67, 53);
+  text-align: center;
+  font-size: 40px;
+}
+
+img{
+  margin:auto;
+}
+
+:root {
+  --size: 150px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+
+}
+
+.stories-container .story .outer-border {
+  background-color: black;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  background: radial-gradient(
+      circle farthest-corner at 32% 106%,
+      rgb(255, 225, 125) 0%,
+      rgb(255, 205, 105) 10%,
+      rgb(250, 145, 55) 28%,
+      rgb(235, 65, 65) 42%,
+      transparent 82%
+    ),
+    linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+}
+.stories-container .story .border {
+  background-color: white;
+  width: calc(var(--size) - 10px);
+  height: calc(var(--size) - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.stories-container .story .border a {
+  display: block;
+  width: calc(var(--size) - 20px);
+  height: calc(var(--size) - 20px);
+  box-sizing: border-box;
+}
+.stories-container .story .border img {
+  border-radius: 50%;
+  width: calc(var(--size) - 20px);
+  height: calc(var(--size) - 20px);
+  box-sizing: border-box;
+
+}
+
+.stories-container .story .name {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+  width: var(--size);
+}
