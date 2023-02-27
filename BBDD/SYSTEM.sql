@@ -1,3 +1,3 @@
 alter session set "_ORACLE_SCRIPT"=true;
-create user EMP identified BY  EMP;
-grant all privileges  to EMP;
+create user POKEMON identified BY  POKEMON;
+grant all privileges  to POKEMON;

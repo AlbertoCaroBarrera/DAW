@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expedientes>
+    <expediente>
+        <titulacion>DAW</titulacion>
+        <estudiante>Alberto Caro</estudiante>
+        <modulos>
+            <modulo nombre="Sistemas" aprobado="true" curso="Primero"/>
+            <modulo nombre="Lenguaje de marcas" aprobado="false" curso="segundo"/>
+        </modulos>
+    </expediente>
+    <expediente>
+        <titulacion>DAM</titulacion>
+        <estudiante>Miguel Cervantes</estudiante>
+        <modulos>
+            <modulo nombre="Programacion" aprobado="true" curso="Primero"/>
+            <modulo nombre="BBDD" aprobado="false" curso="segundo"/>
+        </modulos>
+    </expediente>
+</expedientes>
