@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concensionario>
+	<coche combustible="D">
+		<marca>Volkswagen</marca>
+		<modelo>Passat</modelo>
+		<color>Azul</color>
+		<año>2005</año>
+		<precio>35000</precio>
+	</coche>
+	<coche combustible="G">
+		<marca>Volkswagen</marca>
+		<modelo>Touren</modelo>
+		<color>Azul</color>
+		<año>2007</año>
+		<precio>50000</precio>
+	</coche>
+	<coche combustible="D">
+		<marca>Opel</marca>
+		<modelo>Astra</modelo>
+		<color>Negro</color>
+		<año>2213</año>
+		<precio>28000</precio>
+	</coche>
+</concensionario>
