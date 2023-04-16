@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+    <facultad id="f001">
+        <nombre>Facultad de Ingeniería</nombre>
+        <departamento id="d001">
+            <nombre>Departamento de Ingeniería Eléctrica</nombre>
+            <profesor id="p001">
+                <nombre>John Doe</nombre>
+                <titulo>PhD en Ingeniería Eléctrica</titulo>
+                <area>Electromagnetismo</area>
+                <experiencia>5</experiencia>
+            </profesor>
+            <profesor id="p002">
+                <nombre>Jane Smith</nombre>
+                <titulo>PhD en Ingeniería Eléctrica</titulo>
+                <area>Control Automático</area>
+                <experiencia>6</experiencia>
+            </profesor>
+        </departamento>
+        <departamento id="d002">
+            <nombre>Departamento de Ingeniería Mecánica</nombre>
+            <profesor id="p003">
+                <nombre>Mark Johnson</nombre>
+                <titulo>PhD en Ingeniería Mecánica</titulo>
+                <area>Dinámica de Sistemas Mecánicos</area>
+                <experiencia>8</experiencia>
+            </profesor>
+            <profesor id="p004">
+                <nombre>Sarah Lee</nombre>
+                <titulo>PhD en Ingeniería Mecánica</titulo>
+                <area>Mecánica de Fluidos</area>
+                <experiencia>11</experiencia>
+            </profesor>
+        </departamento>
+    </facultad>
+    <facultad id="f002">
+        <nombre>Facultad de Ciencias</nombre>
+        <departamento id="d003">
+            <nombre>Departamento de Física</nombre>
+            <profesor id="p005">
+                <nombre>Robert Johnson</nombre>
+                <titulo>MSc en Física Teórica</titulo>
+                <area>Física de Partículas</area>
+                <experiencia>15</experiencia>
+            </profesor>
+            <profesor id="p006">
+                <nombre>Alice Brown</nombre>
+                <titulo>PhD en Física Experimental</titulo>
+                <area>Física Atómica y Molecular</area>
+                <experiencia>25</experiencia>
+            </profesor>
+        </departamento>
+        <departamento id="d004">
+            <nombre>Departamento de Química</nombre>
+            <profesor id="p007">
+                <nombre>Michael Davis</nombre>
+                <titulo>PhD en Química</titulo>
+                <area>Química Orgánica</area>
+                <experiencia>10</experiencia>
+            </profesor>
+            <profesor id="p008">
+                <nombre>Emily Smith</nombre>
+                <titulo>MSc en Química</titulo>
+                <area>Química Inorgánica</area>
+                <experiencia>9</experiencia>
+            </profesor>
+        </departamento>
+    </facultad>
+</universidad>

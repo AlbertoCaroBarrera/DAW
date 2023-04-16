@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calificaciones>
+    <datos>
+
+        <alumno>
+            <nombre>Felipe</nombre>
+            <apellido></apellido>
+        </alumno>
+
+
+        <alumno>
+            <nombre>Maria</nombre>
+            <apellido></apellido>
+        </alumno>
+
+    </datos>
+
+    <materias>
+
+        <oac>
+
+            <cuestionarios>
+
+                <cuestionario id="Felipe">5</cuestionario>
+                <cuestionario id="Maria">7</cuestionario>
+
+            </cuestionarios>
+            <tareas>
+
+                <tarea id="Felipe">2</tarea>
+                <tarea id="Maria">3</tarea>
+
+            </tareas>
+        </oac>
+
+        <eee>
+
+
+            <cuestionarios>
+
+                <cuestionario id="Felipe">2</cuestionario>
+                <cuestionario id="Maria">3</cuestionario>
+
+            </cuestionarios>
+            <tareas>
+
+                <tarea id="Felipe">4</tarea>
+                <tarea id="Maria">6</tarea>
+
+            </tareas>
+        </eee>
+
+    </materias>
+
+</calificaciones>

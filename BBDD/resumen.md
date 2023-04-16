@@ -69,6 +69,26 @@ AND CONDICION_2
 
 ## Funciones de cadenas
 
-| funcion | que hace?                             |
-| ------- | ------------------------------------- |
-| chr(n)  | Caracter cuyo valor en binario vale n |
+| funcion                    | que hace?                                                              |
+| -------------------------- | ---------------------------------------------------------------------- |
+| chr(n)                     | Caracter cuyo valor en binario vale n                                  |
+| instr(cadena1,cadena2,n,m) | posicion de la cadena1 en la cadena2 contando a partir de quitar n y m |
+| length(cadena)             | devuelve la longitud de una cadena                                     |
+
+## Funciones para el manejo de fechas
+
+| funcion                       | que hace?                                                        |
+| ----------------------------- | ---------------------------------------------------------------- |
+| Sysdate                       | devuelve la fecha del sistema                                    |
+| add_months(fecha,n)           | añadimos n meses a nuestra fecha                                 |
+| last_day (fecha)              | devuelve el ultimo dia del mes                                   |
+| months_between(fecha1,fecha2) | meses de diferencia                                              |
+| next_day(fecha,cad)           | devuelve la fecha del primer día de la semana indicado por "cad" |
+
+## Funciones de conversión
+
+| funcion         | que hace?                          |
+| --------------- | ---------------------------------- |
+| To_char(fecha)  | transforma una fecha en cadena     |
+| to_date(cadena) | transforma una cadena en una fecha |
+|                 |

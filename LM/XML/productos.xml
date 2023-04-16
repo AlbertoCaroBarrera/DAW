@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <producto id="p001" unidad="litros" disponibilidad="true">
+        <nombre>Leche Entera</nombre>
+        <precio>2.50</precio>
+        <descripcion>Leche entera en botella de un litro</descripcion>
+        <categoria ubicacion="pasillo A" seccion="lacteos">Alimentos</categoria>
+    </producto>
+    <producto id="p002" unidad="kilogramos" disponibilidad="true">
+        <nombre>Detergente en Polvo</nombre>
+        <precio>5.00</precio>
+        <descripcion>Detergente en polvo para lavadora, 2 kilogramos</descripcion>
+        <categoria ubicacion="pasillo B" seccion="limpieza">Limpieza</categoria>
+    </producto>
+    <producto id="p003" unidad="unidades" disponibilidad="false">
+        <nombre>Televisor LED 55"</nombre>
+        <precio>900.00</precio>
+        <descripcion>Televisor LED de alta definición, pantalla de 55 pulgadas</descripcion>
+        <categoria ubicacion="pasillo C" seccion="electronicos">Electrónica</categoria>
+    </producto>
+    <producto id="p004" unidad="litros" disponibilidad="true">
+        <nombre>Zumo de Naranja</nombre>
+        <precio>1.50</precio>
+        <descripcion>Zumo de naranja natural en botella de 1 litro</descripcion>
+        <categoria ubicacion="pasillo A" seccion="bebidas">Bebidas</categoria>
+    </producto>
+    <producto id="p005" unidad="kilogramos" disponibilidad="true">
+        <nombre>Arroz Integral</nombre>
+        <precio>2.80</precio>
+        <descripcion>Arroz integral en paquete de 1 kilogramo</descripcion>
+        <categoria ubicacion="pasillo A" seccion="alimentos">Alimentos</categoria>
+    </producto>
+    <producto id="p006" unidad="unidades" disponibilidad="true">
+        <nombre>Pasta de Dientes</nombre>
+        <precio>2.00</precio>
+        <descripcion>Pasta de dientes con flúor, sabor menta, 100 gramos</descripcion>
+        <categoria ubicacion="pasillo B" seccion="cuidado_personal">Cuidado Personal</categoria>
+    </producto>
+    <producto id="p007" unidad="unidades" disponibilidad="true">
+        <nombre>Papel Higiénico</nombre>
+        <precio>1.50</precio>
+        <descripcion>Rollo de papel higiénico de 4 capas</descripcion>
+        <categoria ubicacion="pasillo B" seccion="limpieza">Limpieza</categoria>
+    </producto>
+    <producto id="p008" unidad="litros" disponibilidad="false">
+        <nombre>Cerveza</nombre>
+        <precio>3.00</precio>
+        <descripcion>Cerveza rubia en botella de 1 litro</descripcion>
+        <categoria ubicacion="pasillo A" seccion="bebidas">Bebidas</categoria>
+    </producto>
+</productos>
+
+
+
